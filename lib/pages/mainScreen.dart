@@ -40,8 +40,9 @@ class MainScreen extends StatelessWidget {
       child: SingleChildScrollView(
         child:  Column(
           children: [
- Home(), 
-         AboutMe()
+          
+          Home(), 
+         AboutMe(),
           ],
         )
         
