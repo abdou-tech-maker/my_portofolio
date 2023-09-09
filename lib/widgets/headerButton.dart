@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HeaderButton extends StatefulWidget {
   const HeaderButton({super.key, required this.text,  required this.onPressed});
@@ -14,11 +15,12 @@ class HeaderButton extends StatefulWidget {
 class _HeaderButtonState extends State<HeaderButton> {
   @override
   Widget build(BuildContext context) {
-    return  ElevatedButton(
+    return  TextButton(
       onPressed: () {
         widget.onPressed;
       },
-      child:Text(widget.text),
+      child:Text(widget.text,style: GoogleFonts.poppins(color: Colors.white,fontSize: 18,fontWeight: FontWeight.w400),),
+      
     );
   }
 }

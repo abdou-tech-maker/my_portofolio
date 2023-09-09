@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_portofolio/constantes/%20constantes.dart';
 import 'package:my_portofolio/pages/mainScreen.dart';
 
 void main() {
@@ -12,10 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'My Portfolio',
       theme: ThemeData(
    
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: greenColor),
         useMaterial3: true,
       ),
       home: const MainScreen(),

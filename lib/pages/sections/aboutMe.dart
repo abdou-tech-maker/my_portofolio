@@ -7,7 +7,7 @@ class AboutMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return       Image.asset("assets/photos/me.jpg");
+    return     Container();
 
   }
 }

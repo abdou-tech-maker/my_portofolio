@@ -19,6 +19,7 @@ dependencies:
   url_launcher: ^6.1.10
   image_picker: ^1.0.4
   google_fonts: ^5.1.0
+  animated_text_kit: ^4.2.2
 
 
 dev_dependencies:
@@ -38,6 +39,7 @@ flutter:
   
   assets:
     - assets/
+    - assets/mine.png
     - assets/work/
     - assets/photos/
     - assets/services/
