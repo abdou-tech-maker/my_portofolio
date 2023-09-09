@@ -13,3 +13,5 @@ const Color backGround = Color(0xFFEDF2FF);
 void openURL(String url) => launchUrl(
       Uri.parse(url),
     );
+const String lorem =
+    "Lorem Ipsum is simply dummy text of the text ever since the 1500s,\nwhen an unknown printer took a galley of type\nand scrambled it to make a type specimen book. It has survived not only five centur";

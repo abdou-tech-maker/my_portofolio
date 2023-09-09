@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Constantes {
-  static TextStyle boldstyle = GoogleFonts.poppins(
-      fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white);
+  static head4(Color color) {
+    return GoogleFonts.poppins(
+        fontSize: 16, fontWeight: FontWeight.w100, color: color);
+  }
+
   static head3(Color color) {
     return GoogleFonts.poppins(
-        fontSize: 22, fontWeight: FontWeight.w300, color: Colors.white);
+        fontSize: 22, fontWeight: FontWeight.w300, color: color);
   }
 
   static TextStyle lightBigStyle = GoogleFonts.poppins(

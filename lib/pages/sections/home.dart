@@ -69,6 +69,10 @@ class Home extends StatelessWidget {
                   height: 15,
                 ),
                 const SocialLinks(),
+                Text(
+                  lorem,
+                  style: Constantes.head4(Colors.white),
+                )
               ],
             )
           ],
@@ -76,6 +80,8 @@ class Home extends StatelessWidget {
         const Spacer(),
         Image.asset(
           "/Users/mac/projects/my_portofolio/my_portofolio/assets/noBackground.png",
+          height: 500,
+          width: 400,
         ),
       ],
     );
