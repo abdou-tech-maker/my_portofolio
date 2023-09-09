@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portofolio/constantes/constantes.dart';
 import 'package:my_portofolio/util/util.dart';
+import 'package:my_portofolio/widgets/social_links.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -42,7 +43,7 @@ class Home extends StatelessWidget {
                       Icons.play_arrow,
                       color: greenColor,
                     ),
-                    AnimatedTextKit(animatedTexts: [
+                    AnimatedTextKit(isRepeatingAnimation: true, animatedTexts: [
                       TyperAnimatedText(
                         'flutter Developper',
                         textStyle: Constantes.head3(greenColor),
@@ -64,6 +65,10 @@ class Home extends StatelessWidget {
                     ]),
                   ],
                 ),
+                const SizedBox(
+                  height: 15,
+                ),
+                const SocialLinks(),
               ],
             )
           ],
