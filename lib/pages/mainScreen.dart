@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portofolio/constantes/%20constantes.dart';
+import 'package:my_portofolio/constantes/constantes.dart';
 import 'package:my_portofolio/pages/sections/aboutMe.dart';
 import 'package:my_portofolio/pages/sections/home.dart';
 import 'package:my_portofolio/widgets/headerButton.dart';

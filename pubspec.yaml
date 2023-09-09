@@ -16,7 +16,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   responsive_builder: ^0.7.0
-  url_launcher: ^6.1.10
+  url_launcher: ^6.1.14
   image_picker: ^1.0.4
   google_fonts: ^5.1.0
   animated_text_kit: ^4.2.2
@@ -39,9 +39,10 @@ flutter:
   
   assets:
     - assets/
-    - assets/mine.png
+    - assets/me-modified.jpeg
     - assets/work/
     - assets/photos/
+    - assets/photos/me.png
     - assets/services/
     - assets/projects/
 

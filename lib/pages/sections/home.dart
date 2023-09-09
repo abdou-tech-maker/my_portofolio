@@ -1,6 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:my_portofolio/constantes/%20constantes.dart';
+import 'package:my_portofolio/constantes/constantes.dart';
 import 'package:my_portofolio/util/util.dart';
 
 class Home extends StatelessWidget {
@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
     return Row(
       children: [
         Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Column(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -19,8 +20,8 @@ class Home extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      "Hello ",
-                      style: Constantes.head2(Colors.white),
+                      "WELCOME TO MY PORTFOLIO !",
+                      style: Constantes.head3(Colors.white),
                     ),
                     Image.asset(
                       "assets/hi.gif",
@@ -37,44 +38,39 @@ class Home extends StatelessWidget {
                 const SizedBox(height: 10),
                 Row(
                   children: [
-                    Text(
-                      "and i'm a ",
-                      style: Constantes.head2(Colors.white),
+                    const Icon(
+                      Icons.play_arrow,
+                      color: greenColor,
                     ),
-                    Row(
-                      children: [
-                        const Icon(
-                          Icons.play_arrow,
-                          color: greenColor,
-                        ),
-                        AnimatedTextKit(animatedTexts: [
-                          TyperAnimatedText(
-                            'flutter Developper',
-                            textStyle: Constantes.head2(greenColor),
-                            speed: const Duration(milliseconds: 100),
-                          ),
-                          TyperAnimatedText(
-                            'NestJs  Developper',
-                            textStyle: Constantes.head2(greenColor),
-                            speed: const Duration(milliseconds: 100),
-                          ),
-                          TyperAnimatedText(
-                            'FreeLancer',
-                            textStyle: Constantes.head2(greenColor),
-                          )
-                        ]),
-                      ],
-                    ),
+                    AnimatedTextKit(animatedTexts: [
+                      TyperAnimatedText(
+                        'flutter Developper',
+                        textStyle: Constantes.head3(greenColor),
+                        speed: const Duration(milliseconds: 100),
+                      ),
+                      TyperAnimatedText(
+                        'NestJs  Developper',
+                        textStyle: Constantes.head3(greenColor),
+                        speed: const Duration(milliseconds: 100),
+                      ),
+                      TyperAnimatedText(
+                        'FreeLancer',
+                        textStyle: Constantes.head3(greenColor),
+                      ),
+                      TyperAnimatedText(
+                        'a Friend :)',
+                        textStyle: Constantes.head3(greenColor),
+                      )
+                    ]),
                   ],
-                )
+                ),
               ],
-            ),
+            )
           ],
         ),
         const Spacer(),
         Image.asset(
-          "assets/photos/mine-removebg-preview.png",
-          height: 500,
+          "/Users/mac/projects/my_portofolio/my_portofolio/assets/noBackground.png",
         ),
       ],
     );

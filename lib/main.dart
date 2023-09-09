@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_portofolio/constantes/%20constantes.dart';
+import 'package:my_portofolio/constantes/constantes.dart';
 import 'package:my_portofolio/pages/mainScreen.dart';
 
 void main() {
