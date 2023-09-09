@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'My Portfolio',
       theme: ThemeData(
-   
         colorScheme: ColorScheme.fromSeed(seedColor: greenColor),
         useMaterial3: true,
       ),
@@ -23,4 +22,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
